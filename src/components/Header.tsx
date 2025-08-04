@@ -1,6 +1,7 @@
 import { Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/drishti-logo.png";
+
+const logoUrl = "/lovable-uploads/192cc841-66f7-4b3c-af65-ce0c89dc0aff.png";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img src={logo} alt="Drishti Reading Room" className="h-12 w-12" />
+            <img src={logoUrl} alt="Drishti Reading Room" className="h-12 w-12" />
             <div>
               <h1 className="text-2xl font-bold text-foreground">Drishti Reading Room</h1>
               <p className="text-sm text-muted-foreground">Your peaceful study sanctuary</p>

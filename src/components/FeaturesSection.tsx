@@ -6,13 +6,13 @@ const features = [
     icon: Wifi,
     title: "Free WiFi",
     description: "High-speed internet connectivity for your research and online studies",
-    color: "text-deep-blue"
+    color: "text-navy-primary"
   },
   {
     icon: Newspaper,
     title: "Daily Newspapers",
     description: "Stay updated with current affairs through our collection of newspapers",
-    color: "text-warm-orange"
+    color: "text-navy-light"
   },
   {
     icon: Coffee,
@@ -24,13 +24,13 @@ const features = [
     icon: Wind,
     title: "Air Conditioning",
     description: "Comfortable climate-controlled environment for year-round studying",
-    color: "text-deep-blue"
+    color: "text-navy-primary"
   },
   {
     icon: Lightbulb,
     title: "Proper Lighting",
     description: "Well-lit spaces designed to reduce eye strain during long study sessions",
-    color: "text-warm-orange"
+    color: "text-navy-light"
   },
   {
     icon: Users,
@@ -42,13 +42,13 @@ const features = [
     icon: Clock,
     title: "Flexible Hours",
     description: "Extended operating hours to accommodate different study schedules",
-    color: "text-deep-blue"
+    color: "text-navy-primary"
   },
   {
     icon: Thermometer,
     title: "Clean Facilities",
     description: "Regularly sanitized and well-maintained reading spaces",
-    color: "text-warm-orange"
+    color: "text-navy-light"
   }
 ];
 

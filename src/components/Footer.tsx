@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/drishti-logo.png";
+
+const logoUrl = "/lovable-uploads/192cc841-66f7-4b3c-af65-ce0c89dc0aff.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <img src={logo} alt="Drishti Reading Room" className="h-10 w-10" />
+              <img src={logoUrl} alt="Drishti Reading Room" className="h-10 w-10" />
               <h3 className="text-xl font-bold">Drishti Reading Room</h3>
             </div>
             <p className="text-primary-foreground/80 mb-4">

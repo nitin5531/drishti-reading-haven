@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div className="relative container mx-auto px-4">
         <div className="max-w-2xl">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Welcome to <span className="text-warm-orange">Drishti</span> Reading Room
+            Welcome to <span className="text-navy-light">Drishti</span> Reading Room
           </h1>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
             Your perfect study destination in Ganga Vihar. Experience peace, comfort, and all the amenities you need for productive learning.
@@ -32,11 +32,11 @@ const HeroSection = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 text-white/90">
             <div className="flex items-center space-x-2">
-              <MapPin className="h-5 w-5 text-warm-orange" />
+              <MapPin className="h-5 w-5 text-navy-light" />
               <span>Ganga Vihar, Delhi</span>
             </div>
             <div className="flex items-center space-x-2">
-              <Clock className="h-5 w-5 text-warm-orange" />
+              <Clock className="h-5 w-5 text-navy-light" />
               <span>Open Daily</span>
             </div>
           </div>

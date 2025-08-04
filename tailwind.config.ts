@@ -60,8 +60,9 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				'warm-orange': 'hsl(var(--warm-orange))',
-				'deep-blue': 'hsl(var(--deep-blue))',
+				'navy-primary': 'hsl(var(--navy-primary))',
+				'navy-light': 'hsl(var(--navy-light))',
+				'navy-dark': 'hsl(var(--navy-dark))',
 				'cream': 'hsl(var(--cream))',
 				'sage': 'hsl(var(--sage))',
 				sidebar: {
