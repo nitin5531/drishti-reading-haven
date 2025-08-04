@@ -22,8 +22,8 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Visit Us Today
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+              <a href="https://maps.app.goo.gl/oGTsf2gV9fMiTDCJ6" target="_blank" rel="noopener noreferrer">Visit Us Today</a>
             </Button>
             <Button variant="outline" size="lg" className="bg-white/10 text-white border-white/20 hover:bg-white/20">
               Learn More

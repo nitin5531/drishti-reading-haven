@@ -81,25 +81,28 @@ const ContactSection = () => {
             
             <div className="space-y-4">
               <Button 
+                asChild
                 size="lg" 
                 className="bg-white text-primary hover:bg-white/90 w-full sm:w-auto"
               >
-                Call Now: 9319226409
+                <a href="tel:9319226409">Call Now: 9319226409</a>
               </Button>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
+                  asChild
                   variant="outline" 
                   size="sm" 
                   className="bg-white/10 text-white border-white/20 hover:bg-white/20"
                 >
-                  Send Email
+                  <a href="mailto:drishtireadingroom@gmail.com">Send Email</a>
                 </Button>
                 <Button 
+                  asChild
                   variant="outline" 
                   size="sm" 
                   className="bg-white/10 text-white border-white/20 hover:bg-white/20"
                 >
-                  Get Directions
+                  <a href="https://maps.app.goo.gl/oGTsf2gV9fMiTDCJ6" target="_blank" rel="noopener noreferrer">Get Directions</a>
                 </Button>
               </div>
             </div>

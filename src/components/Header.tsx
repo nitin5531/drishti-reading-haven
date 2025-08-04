@@ -17,13 +17,17 @@ const Header = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm" className="flex items-center space-x-2">
-              <Phone className="h-4 w-4" />
-              <span>9319226409</span>
+            <Button asChild variant="outline" size="sm" className="flex items-center space-x-2">
+              <a href="tel:9319226409">
+                <Phone className="h-4 w-4" />
+                <span>9319226409</span>
+              </a>
             </Button>
-            <Button variant="outline" size="sm" className="flex items-center space-x-2">
-              <Mail className="h-4 w-4" />
-              <span>drishtireadingroom@gmail.com</span>
+            <Button asChild variant="outline" size="sm" className="flex items-center space-x-2">
+              <a href="mailto:drishtireadingroom@gmail.com">
+                <Mail className="h-4 w-4" />
+                <span>drishtireadingroom@gmail.com</span>
+              </a>
             </Button>
           </div>
         </div>
